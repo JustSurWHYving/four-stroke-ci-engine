@@ -1,9 +1,18 @@
-"""
-This module contains functions and classes for modelling combustion processes.
 
-It includes a CombustionModel class that simulates the combustion process in a cylinder
-using the Wiebe function and differential equations.
 """
+This module provides classes and functions for combustion modelling in internal combustion engines.
+
+It includes a CombustionModel class that simulates the combustion process using the Wiebe function 
+and calculates thermodynamic properties such as pressure and temperature during the engine cycle.
+
+Key Features:
+- Calculation of mass fraction burned using the Wiebe function.
+- Simulation of engine cylinder volume based on crank angle.
+- Calculation of heat release rate during combustion.
+- Integration of pressure and temperature changes over the engine cycle.
+- Visualization of pressure-volume (P-V) diagrams.
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.integrate import solve_ivp

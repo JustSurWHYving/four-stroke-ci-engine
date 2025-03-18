@@ -1,4 +1,5 @@
-# Code Components
+![Banner](images/banner.png)
+
 This section provides an overview of the code components and their functionalities.
 * [Combustion Modeling](#combustion-modeling)
 * [Heat Transfer Analysis](#heat-transfer-analysis)

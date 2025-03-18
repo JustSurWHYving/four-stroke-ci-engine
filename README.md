@@ -1,4 +1,7 @@
 # Code Components
+This section provides an overview of the code components and their functionalities.
+* [Combustion Modeling](#combustion-modeling)
+* [Heat Transfer Analysis](#heat-transfer-analysis)
 
 ## Combustion Modeling
 

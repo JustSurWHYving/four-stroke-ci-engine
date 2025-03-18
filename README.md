@@ -10,7 +10,7 @@ This section describes the combustion modeling implemented in the code.
 
 *   **Wiebe Function Implementation:**  The code utilizes the Wiebe function to model the heat release rate during combustion. This allows for flexible control over combustion parameters such as duration and shape. The Wiebe function is defined as:
 
-    $$ x = 1 - exp[-a(\frac{\theta - \theta_0}{\Delta \theta})^m] $$
+    $$x = 1 - exp[-a(\frac{\theta - \theta_0}{\Delta \theta})^m]$$
 
     where:
     *   $x$ is the mass fraction burned

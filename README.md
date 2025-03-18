@@ -23,3 +23,17 @@ This section describes the combustion modeling implemented in the code.
 
 *   **Fuel Injection Modeling (Diesel):** For diesel engine simulations, the code includes a fuel injection model.  This allows the user to specify injection parameters such as start time, duration, and injection rate, and to analyze their impact on the combustion process.
 
+## Heat Transfer Analysis
+
+This section describes the heat transfer analysis implemented in the code.
+
+**Objective:** Model heat transfer from the combustion gases to the cylinder walls.
+
+**Features:**
+
+*   **Convective Heat Transfer:**  The code calculates convective heat transfer using empirical correlations. Specifically, the Woschni correlation is implemented to determine the convective heat transfer coefficient.
+
+*   **Radiative Heat Transfer:** Radiative heat transfer from the combustion gases (including soot particles) to the cylinder walls is modeled. This accounts for the energy radiated from the hot gases to the cooler cylinder walls.
+
+*   **Cylinder Wall Temperature Prediction:** The code solves for the temperature distribution within the cylinder wall. Depending on the chosen model complexity, this can be a one-dimensional (1D) or two-dimensional (2D) solution. Finite difference or finite volume methods are used to solve the heat conduction equation within the wall.
+
